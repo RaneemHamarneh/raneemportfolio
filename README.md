@@ -1,5 +1,5 @@
 # Raneem's Portfolio  
-**Mathematician | Data Scientist | Web Developer | Full Stack Developer**
+**Mathematician | Data Scientist | Web Developer**
 
 Hi! I’m **Raneem**, a mathematician and a passionate developer with a strong foundation in problem-solving and continuous learning.  
 
