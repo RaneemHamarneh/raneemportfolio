@@ -1,0 +1,81 @@
+/* General Page Background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Clean and modern font */
+    background: linear-gradient(to bottom, #f7f8fc, #e4e8ed); /* Soft gradient background */
+    color: #333; /* Neutral text color for readability */
+    line-height: 1.6; /* Improve paragraph spacing */
+}
+
+/* Styling for <p> Tags */
+p {
+    font-size: 1.1rem; /* Adjust font size for better readability */
+    color: #555; /* Softer gray for body text */
+    margin: 10px 0; /* Add spacing between paragraphs */
+    padding: 10px; /* Add padding for cleaner layout */
+    background-color: #ffffff; /* White background for emphasis */
+    border-radius: 8px; /* Rounded corners for elegance */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: fit-content; /* Ensure the paragraph wraps content neatly */
+    max-width: 600px; /* Limit paragraph width for better legibility */
+}
+
+/* Link Styling inside Paragraph */
+p a {
+    color: #4caf50; /* Green for links */
+    text-decoration: none; /* Remove underline for cleaner look */
+    font-weight: 500; /* Slightly bold for emphasis */
+    transition: color 0.3s ease; /* Smooth hover transition */
+}
+
+p a:hover {
+    color: #1b5e20; /* Darker green on hover */
+}
+
+/* Centering the Content (Optional) */
+section {
+    text-align: center; /* Center content inside sections */
+    padding: 20px; /* Add spacing around sections */
+}
+
+.styled-heading {
+    font-family: 'Poppins', sans-serif; /* Clean and modern font */
+    font-size: 2rem; /* Standard size for headings */
+    color: #1e272e; /* Dark color for good readability */
+    text-align: center; /* Center-align the heading */
+    text-transform: capitalize; /* Capitalize the first letter */
+    letter-spacing: 1px; /* Slight spacing for better legibility */
+    position: relative; /* For adding decorative elements */
+    margin-bottom: 20px; /* Space below heading */
+    padding: 10px 0; /* Space around the text */
+}
+
+.styled-heading::before {
+    content: ""; /* Decorative element above the text */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px; /* Width of the line */
+    height: 4px; /* Height of the line */
+    background-color: #4caf50; /* Line color */
+    border-radius: 2px; /* Smooth edges */
+}
+
+.styled-heading::after {
+    content: ""; /* Decorative element below the text */
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px; /* Width of the line */
+    height: 2px; /* Height of the line */
+    background-color: #4caf50; /* Line color */
+    border-radius: 2px; /* Smooth edges */
+}
+
+h2.styled-heading {
+    font-size: 2rem; /* Adjust font size specifically for h2 */
+    color: #4caf50; /* Use a standout color for emphasis */
+}
